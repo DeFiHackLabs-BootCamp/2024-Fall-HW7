@@ -40,7 +40,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Problem 1
-        command: cd hw && forge test --match-contract GameTest
+        command: cd hw && forge test --match-contract LenderPoolTest
         timeout: 30
         max-score: 80
 
@@ -50,7 +50,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Problem 2
-        command: cd hw && forge test --match-contract SimpleVaultTest
+        command: cd hw && forge test --match-contract WeaponTest
         timeout: 30
         max-score: 20
 
